@@ -38,7 +38,7 @@ const DisplayData = () => {
           data.map((ele, i) => {
             return (
               <div
-                style={{ borderTop: "1px solid white", marginTop: "20px" }}
+                style={{ borderTop: "1px solid black", margin: "10px" }}
                 key={i}
               >
                 <h3>{ele.name}</h3>
